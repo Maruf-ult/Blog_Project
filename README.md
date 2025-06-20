@@ -21,5 +21,5 @@
 
 1. **Clone the repository**
     ```bash
-   git clone https://github.com/your-username/Blog_Project.git
+   git clone https://github.com/Maruf-ult/Blog_Project
 
