@@ -20,6 +20,58 @@
 ## ⚙️ Installation
 
 1. **Clone the repository**
-    ```bash
-   git clone https://github.com/Maruf-ult/Blog_Project
+    ```
+     git clone https://github.com/Maruf-ult/Blog_Project
+    
+    ```
+
+2. Open the terminal in the project directory:
+    ```
+     cd Blog-App
+    ```
+
+3. Create and activate a virtual environment:
+   ```
+     python -m venv env
+   ```
+     # Activate the virtual environment:
+     # On Linux/Mac:
+   ```
+     source env/bin/activate
+   ```
+   
+     # On Windows:
+   ```
+     env\Scripts\activate
+   ```
+
+
+5. Install dependencies:
+    ```
+       pip install -r requirements.txt
+    ```
+
+6. Configure the database:
+
+- Create a `.env` file or configure your database settings in `settings.py`
+- Run the following migrations:
+
+  ```
+    python manage.py makemigrations
+    python manage.py migrate
+  ```
+
+6. Create a superuser for admin access:
+   ```
+     python manage.py createsuperuser
+
+   ```
+
+7. Start the development server:
+    ```
+        python manage.py runserver
+    
+    ```
+
+
 
