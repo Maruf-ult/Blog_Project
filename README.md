@@ -34,13 +34,13 @@
    ```
      python -m venv env
    ```
-     # Activate the virtual environment:
-     # On Linux/Mac:
+      Activate the virtual environment:
+      On Linux/Mac:
    ```
      source env/bin/activate
    ```
    
-     # On Windows:
+      On Windows:
    ```
      env\Scripts\activate
    ```
